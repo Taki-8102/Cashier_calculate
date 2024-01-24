@@ -1,0 +1,134 @@
+#number_P, #list_M, #sum_M, #custommer_money, #result_money, #Change_money {
+    color: green;
+}
+
+body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 20;
+    padding: 0;
+    height: 100vh;
+}
+
+.background {
+    width: fit-content;
+    height: fit-content;
+    background-color: #f0f0f0;
+    margin: 50px;
+    padding: 30px;
+    /* Apply box shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Exchange_S {
+    font-size: 40px;
+    padding: 16px;
+    text-align: center;
+}
+
+table {
+    border-spacing: 30px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: auto;
+  }
+
+  td, th {
+    text-align: center;
+    padding: 8px;
+  }
+
+/*this for number of products*/
+.box_numberP {
+    border-radius: 15px;
+    background-color: #aac7d8;
+    position: relative;
+    width: fit-content;
+    padding: 10px;
+
+}
+
+.number_proD {
+    font-size: 40px;
+    width: 300px;
+    height: 100px;
+}
+
+/*List price of Products*/
+.box_listM {
+    border-radius: 15px;
+    background-color: #dfebf6;
+    position: relative;
+    width: fit-content;
+    padding: 10px;
+
+}
+
+.list_Products {
+    font-size: 40px;
+    width: 300px;
+}
+
+/*sum_Allproducts*/
+.sum_allProducts {
+    border-radius: 15px;
+    background-color: #7599c1;
+    position: relative;
+    width: fit-content;
+    padding: 12px;
+
+}
+
+.sum_AProducts {
+    font-size: 40px;
+    width: 300px;
+}
+
+/*Money custommer - user*/
+.custommer_M {
+    border-radius: 15px;
+    background-color: #aac7d8;
+    position: relative;
+    width: fit-content;
+    padding: 12px;
+
+}
+
+.customer_money {
+    font-size: 30px;
+    width: 300px;
+}
+
+/*result money */
+.result_M {
+    border-radius: 15px;
+    background-color: #7599c1;
+    position: relative;
+    width: fit-content;
+    padding: 12px;
+
+}
+
+.Result_Money {
+    font-size: 40px;
+    width: 300px;
+}
+
+/*change money */
+.change_M {
+    border-radius: 15px;
+    background-color: #dfebf6;
+    position: relative;
+    width: fit-content;
+    padding: 12px;
+
+}
+
+.change_Money {
+    font-size: 30px;
+    width: 300px;
+}
